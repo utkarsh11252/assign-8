@@ -8,7 +8,7 @@ def main():
 
     ans=one*two
 
-    st.write(ans)
+    st.write(one,"X",two,"=",ans)
 
 
 if __name__ == '__main__':
