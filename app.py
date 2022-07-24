@@ -3,7 +3,7 @@ import streamlit as st
 def main():
     st.title("""Multiplication of 2 numbers""")
 
-    one=st.number_input("Enter first_Number")
+    one=st.number_input("Enter first number")
     two=st.number_input("Enter second number")
 
     ans=one*two
