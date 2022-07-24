@@ -1,7 +1,7 @@
 import streamlit as st
 
 def main():
-    st.write("""Multiplication of 2 numbers""")
+    st.title("""Multiplication of 2 numbers""")
 
     one=st.number_input("First_Number")
     two=st.number_input("Second number")
